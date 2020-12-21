@@ -1,0 +1,86 @@
+banner : https://www.freepik.com/free-vector/work-time-concept-illustration_7117898.htm#page=1&query=Illustrations&position=15#position=15&page=1&query=Illustrations
+Reason : https://www.freepik.com/free-vector/visual-data-concept-illustration_7504550.htm#page=1&query=Illustrations&position=42#position=42&page=1&query=Illustrations
+
+
+.card {
+    position: relative;
+    width: 320px;
+    height: 420px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    height: 100%;
+    background-color: #4869E0;
+    transform: skewY(345deg);
+    transition: .5s;
+}
+
+.card:hover::before {
+    top: -70px;
+    transform: skewY(390deg)
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#services {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+}
+
+.services img {
+    width: 100%;
+    background-size: cover;
+    margin-top: 20px;
+    position: relative;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services h4 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+#services .btn-danger {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #4869E0, #47E9FA);
+}
+
+
+<div class="card">
+              <img src="assets/img/services1.svg" class="service-img">
+              <h4>Design</h4>
+              <p>Graphic Design | Packing Design | Display Corporate Design</p>
+            </div>  
+          </div>
+          <div class="col-md-4 services">
+            <div class="card">
+              <img src="assets/img/services3.svg" class="service-img">
+              <h4>Digital</h4>
+              <p>Web Design | Mobile Apps | Interactive Files | Game Apps</p>
+            </div>
+          </div>
+          <div class="col-md-4 services">
+            <div class="card">
+              <img src="assets/img/services2.svg" class="service-img">
+              <h4>Marketing</h4>
+              <p>Branding Development | Hosting | Branding Apps</p>
+            </div>
