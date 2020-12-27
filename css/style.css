@@ -439,6 +439,15 @@ hr {
     }
 }
 
+@media (min-width: 768px) {
+    #banner {
+        background-image: linear-gradient(to right, #4869E0, #47E9FA);
+        color: #fff;
+        padding-top: 5%;
+        margin-top: -1px;
+    }
+}
+
 /* Key frame */
 @keyframes moveBanner {
     0% {
